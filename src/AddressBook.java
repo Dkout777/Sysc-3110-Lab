@@ -16,6 +16,10 @@ public class AddressBook {
         book.remove(index);
     }
 
+    public void branchTest(){
+        System.out.println("Test Successful");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Test","Carleton","613");
         AddressBook addressBook = new AddressBook();
