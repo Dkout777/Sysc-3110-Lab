@@ -11,6 +11,14 @@ public class AddressBook {
         }
 
     }
+    public void branchTest(){
+        System.out.println("Test Successful");
+    }
+    public void branchTestTwo(){
+        System.out.println("Test2 Successful");
+    }
+
+
 
     public void removeBuddy (int index){
         book.remove(index);
